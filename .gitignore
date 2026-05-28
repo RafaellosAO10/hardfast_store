@@ -1,0 +1,79 @@
+# Dependências
+/node_modules
+/node_modules/*
+/node_modules/**/*
+
+# Arquivos de lock (mantenha apenas um - recomendo package-lock.json)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lock
+bun.lockb
+
+# Arquivos de configuração de gerenciadores alternativos
+bunfig.toml
+pnpm-workspace.yaml
+
+# Documentação (seu request)
+requirements.md
+tasks.md
+design.md
+
+# IDE e editores
+/.vscode
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build e output
+/dist
+/build
+/.output
+/.vercel
+/.netlify
+*.tar.gz
+*.log
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Cache e logs
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Relatórios de teste
+/coverage
+/test-results
+/screenshots
+/cypress/screenshots
+/cypress/videos
+
+# Arquivos temporários
+*.tmp
+*.temp
+.temp/
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configurações locais
+.env.local
+.env.*.local
+*.local
